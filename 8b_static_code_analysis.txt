@@ -1,0 +1,56 @@
+theia@theiadocker-satheeshku16:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:26:0: C0301: Line too long (134/100) (line-too-long)
+server.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+server.py:30:27: C0303: Trailing whitespace (trailing-whitespace)
+server.py:37:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:18:7: C0121: Comparison 'dominant_emotion != None' should be 'dominant_emotion is not None' (singleton-comparison)
+server.py:28:26: W1309: Using an f-string that does not have any interpolated variables (f-string-without-interpolation)
+server.py:33:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+-----------------------------------
+Your code has been rated at 5.24/10
+
+theia@theiadocker-satheeshku16:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:26:0: C0301: Line too long (134/100) (line-too-long)
+server.py:29:27: C0303: Trailing whitespace (trailing-whitespace)
+server.py:36:0: C0304: Final newline missing (missing-final-newline)
+server.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+server.py:7:0: C0116: Missing function or method docstring (missing-function-docstring)
+server.py:32:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 7.14/10 (previous run: 5.24/10, +1.90)
+
+theia@theiadocker-satheeshku16:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:46:0: C0304: Final newline missing (missing-final-newline)
+server.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.05/10 (previous run: 7.14/10, +1.90)
+
+theia@theiadocker-satheeshku16:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.05/10, +0.48)
+
+theia@theiadocker-satheeshku16:/home/project/final_project$ pylint server.py
+************* Module server
+server.py:47:0: C0304: Final newline missing (missing-final-newline)
+
+------------------------------------------------------------------
+Your code has been rated at 9.52/10 (previous run: 9.52/10, +0.00)
+
+theia@theiadocker-satheeshku16:/home/project/final_project$ pylint server.py
+
+-------------------------------------------------------------------
+Your code has been rated at 10.00/10 (previous run: 9.52/10, +0.48)
+
+theia@theiadocker-satheeshku16:/home/project/final_project$ 
